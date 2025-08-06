@@ -1,0 +1,165 @@
+/* body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f2f2f2;
+  }
+  
+  .container {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  
+  .left, .right {
+    padding: 40px;
+    flex: 1;
+  }
+  
+  .left {
+    background: #fff;
+    border-right: 1px solid #eee;
+  }
+  
+  .left h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .left a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  
+  .right form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right h2 {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], input[type="password"], input[type="email"] {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    background: black;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: #222;
+  }
+  
+  .remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  } */
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f2f5;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    flex: 1;
+    background: linear-gradient(to right, #0066cc, #003366);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .left h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .left a {
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+  
+  .right {
+    flex: 1;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    color: #003366;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004080;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
